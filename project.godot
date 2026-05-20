@@ -14,10 +14,20 @@ config/name="Soccer Game"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[display]
+
+window/size/viewport_width=280
+window/size/viewport_height=180
+window/size/window_width_override=1400
+window/size/window_height_override=900
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
